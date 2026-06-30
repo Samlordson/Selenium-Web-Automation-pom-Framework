@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.Tc_001_Login"/>
+      <class name="test.Tc_002_Navigationtochangemanagement"/>
+      <class name="test.Tc_004_Navigationtoconfig"/>
+      <class name="test.Tc_003_Navigationtodashboard"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
